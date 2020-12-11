@@ -1,0 +1,209 @@
+/* NAVBAR*/
+.navbar {
+    background-color: saddlebrown;
+}
+
+.navbar .container .navbar-brand {
+    font-weight: 500;
+    transition: 1s;
+    color: orange;
+}
+
+.navbar .container .navbar-brand:hover {
+    color: white;
+}
+
+.navbar .container .navbar-nav .nav-link {
+    margin-right: 50px;
+    color: white;
+    transition: 1s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    color: orange;
+    transform: translateY(-30px);
+}
+
+/*MEDSOS*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 1px 0;
+    background-color: #FFBF1F;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.online {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.online:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/food.jpg) 0 -100px;
+    background-size: cover !important;
+    background-attachment: fixed;
+    color: orange;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.jumbotron .container {
+    margin-top: 150px;
+}
+
+/*Jumbotron2*/
+.jumbotron2 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/food3.jpg) 0 -100px;
+    background-size: cover !important;
+    background-attachment: fixed;
+    padding-top: 200px;
+    color: orange;
+}
+
+.jumbotron2 h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+
+/*Jumbotron3*/
+.jumbotron3 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/pedas.jpg) 0 -70px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: orange;
+}
+
+.jumbotron3 .col-md-8 h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 100px 0;
+}
+
+/*Jumbotron4*/
+.jumbotron4 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/pedas3.jpg) 0 -70px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: orange;
+}
+
+.jumbotron4 .col-md-12 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 200px 0;
+}
+
+
+
+
+
+/*ABOUT*/
+.about {
+    background: url(img/food2.jpg);
+    background-attachment: fixed;
+    margin: 70px 0;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.about .col-md-12 h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 50px 0;
+}
+
+.about .col-md-12 p {
+    text-align: center;
+}
+
+.about .col-md-12 h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 50px 0;
+}
+
+
+
+
+/*footer*/
+.footer {
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    background-color: black;
+    text-align: center;
+}
+
+/*Order*/
+.order {
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/makanan.jpg) 0 -70px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 70px 0;
+    padding: 50px 0;
+}
+
+
+.col-md-8 {
+    color: white;
+}
+
+.col-md-12 h2 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.col-md-4 {
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.col-md-8 {
+    margin: auto;
+}
+
+/*Menu*/
+
+.form {
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/pedas2.png) 0 -70px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 70px 0;
+    padding: 50px 0;
+    color: white;
+}
+
+.jule {
+    margin-left: 250px;
+}
